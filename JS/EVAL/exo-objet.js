@@ -5,19 +5,19 @@
 //(à noté que cette liste au début est vide).
 // crée un résultat permettant de faire le total de prixTotalsFruitsLegumes.
 
-var panier = [{
-    legumes : artichaud;
-    prix: 5;
-    quantite: 10;
- }
- {
-    legumes : brocoli;
-    prix: 9;
-    quantite: 5;
- }]
 var prixTotalsFruitsLegumes = [];
-for (var legumes of panier){
-    prixTotals=  legumes.prix*legumes.quantite;
-    prixTotalsFruitsLegumes.push(prixTotals);
-}
-console.log(prixTotalsFruitsLegumes);
+
+     for(var Legume of panier){
+        var Total = Legume.prixUnite * Legume.quantite ;
+        prixTotalsFruitsLegumes.push(Total);
+     };
+     console.log("key :" ,prixTotalsFruitsLegumes , "value :", prixTotalsFruitsLegumes);
+
+     // crée un résultat permettant de faire le total de prixTotalsFruitsLegumes.
+
+     var prixTotal = 0;
+    for(var i= 0; i<prixTotalsFruitsLegumes.length ; i++){
+        prixTotal = prixTotal + prixTotalsFruitsLegumes[i] ;
+        //return prixTotal;
+    };
+    console.log(prixTotal);
