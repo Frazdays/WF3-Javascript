@@ -1,0 +1,29 @@
+body{
+
+        margin : 0 auto;
+}
+
+
+
+
+.square{
+
+    width: 100px;
+    height: 100px;
+    margin: 0 AUTO;
+}
+
+.color1{
+
+    color :red;
+}
+
+.color2{
+
+    color : green;
+
+}
+.color3 {
+
+    color:blue;
+}

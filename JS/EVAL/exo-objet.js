@@ -21,3 +21,5 @@ var prixTotalsFruitsLegumes = [];
         //return prixTotal;
     };
     console.log(prixTotal);
+
+    

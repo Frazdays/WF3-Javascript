@@ -1,0 +1,10 @@
+.contenaire {
+
+    width: 950px;
+    margin: auto;
+    text-align: center;
+}
+img{
+    margin: 15px;
+    cursor:pointer;
+}
